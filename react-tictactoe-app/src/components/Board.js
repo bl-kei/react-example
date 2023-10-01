@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
-import Square from './Square'
-import './Board.css'
+import React, { Component } from "react";
+import Square from "./Square";
+import "./Board.css";
 
 export class Board extends Component {
   renderSquare(i) {
-    return <Square value={i}/>
+    return <Square value={i} />;
   }
   render() {
-    const status = 'Next Player: X'
+    const status = "Next Player: X";
     return (
       <div>
         <div className="status">{status}</div>
@@ -27,6 +27,6 @@ export class Board extends Component {
           {this.renderSquare(8)}
         </div>
       </div>
-    )
+    );
   }
 }

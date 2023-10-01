@@ -1,5 +1,5 @@
-import './App.css'
-import { Board } from './components/Board'
+import "./App.css";
+import { Board } from "./components/Board";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       </div>
       <div className="game-info">game info</div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
